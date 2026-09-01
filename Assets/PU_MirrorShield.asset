@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09e47fa565e0f424eaf9a8785570d249, type: 3}
+  m_Name: PU_MirrorShield
+  m_EditorClassIdentifier: Assembly-CSharp::SO_PowerUp
+  displayName: Mirror Shield
+  effectType: 5
+  value: 2.5
+  maxStacks: 1
+  minLevel: 999
+  description: Creates a blurred, solid wall of steel around the player that shreds
+    close-range enemies.
+  icon: {fileID: 4288906587876344540, guid: cb9a98f7d13683241b1adee085d99052, type: 3}

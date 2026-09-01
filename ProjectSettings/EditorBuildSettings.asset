@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/_04_Scenes/SC_BootStrap.unity
+    guid: cef85c71e04da914cacb97c4fbc9310e
+  - enabled: 1
+    path: Assets/_04_Scenes/SC_MainMenu.unity
+    guid: 6efca49aa037a56408ae19d93d02707d
+  - enabled: 1
+    path: Assets/_04_Scenes/SC_CharacterSelect.unity
+    guid: 1374b8188f5754b4cbca3e16c7952627
+  - enabled: 1
+    path: Assets/_04_Scenes/SC_Gameplay.unity
+    guid: 52bcbf5286ea0f749ac740df1c8a2982
+  - enabled: 1
+    path: Assets/_07_GYM/SC_GYM_CharacterControl.unity
+    guid: 8a2c48b68cbba4d4a9b73a38759a0554
+  - enabled: 1
+    path: Assets/_07_GYM/SC_GYM_Camera.unity
+    guid: 9265a94dfca5e84479cb9a6f542e1a34
+  - enabled: 1
+    path: Assets/_07_GYM/SC_GYM_Hazard.unity
+    guid: 48057e6959333a84caaba72e2315b03a
+  - enabled: 1
+    path: Assets/_07_GYM/SC_GYM_Progression.unity
+    guid: b6a05502af613c5469672870fcafd921
+  - enabled: 1
+    path: Assets/_07_GYM/SC_GYM_Combat.unity
+    guid: faa5394c5a74530458c27da8be364206
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
+  m_UseUCBPForAssetBundles: 0

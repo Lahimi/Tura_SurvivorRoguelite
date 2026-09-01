@@ -1,0 +1,52 @@
+{
+  "characters": [
+    {
+      "id": "link",
+      "displayName": "Link",
+      "colorHex": "#44FF44",
+      "stats": {
+        "moveSpeed": 5.0,
+        "maxHp": 100,
+        "defense": 0,
+        "hpGrowth": 15,
+        "defGrowth": 2,
+        "speedGrowth": 0.1,
+        "attackPower": 20,
+        "weaponType": "Proximity",
+        "startingWeapon": "Smith's Sword"
+      }
+    },
+    {
+      "id": "zelda",
+      "displayName": "Zelda",
+      "colorHex": "#FF44FF",
+      "stats": {
+        "moveSpeed": 4.5,
+        "maxHp": 80,
+        "defense": 5,
+        "hpGrowth": 10,
+        "defGrowth": 3,
+        "speedGrowth": 0.05,
+        "attackPower": 15,
+        "weaponType": "Proximity",
+        "startingWeapon": "Small Shield"
+      }
+    },
+    {
+      "id": "ezlo",
+      "displayName": "Ezlo",
+      "colorHex": "#44FFFF",
+      "stats": {
+        "moveSpeed": 5.5,
+        "maxHp": 90,
+        "defense": 2,
+        "hpGrowth": 12,
+        "defGrowth": 2,
+        "speedGrowth": 0.15,
+        "attackPower": 18,
+        "weaponType": "Proximity",
+        "startingWeapon": "Roc's Cape"
+      }
+    }
+  ]
+}

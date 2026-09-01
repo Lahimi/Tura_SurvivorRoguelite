@@ -1,0 +1,493 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5215941370295179054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7495343312992837426}
+  - component: {fileID: 2688356260728392294}
+  m_Layer: 0
+  m_Name: ShieldOrbitContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7495343312992837426
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5215941370295179054}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3413379097233622492}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2688356260728392294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5215941370295179054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 509ef9b5d040fe846861becb58d889e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WP_OrbitingShields
+  smallShieldPrefab: {fileID: 2673073294791673745, guid: b20f8e26f9d3b9b43adc7390038a52be, type: 3}
+  mirrorShieldPrefab: {fileID: 507532103257684371, guid: a7f9075414cf0f0479e854c204de32e2, type: 3}
+  rotationSpeed: 150
+  orbitRadius: 2.2
+  baseDamage: 5
+  activeDuration: 4
+  attackInterval: 8
+  shieldCount: 0
+  isMirrorShieldUnlocked: 0
+--- !u!1 &7046351797434992644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3413379097233622492}
+  - component: {fileID: 1324829170917968700}
+  - component: {fileID: 4733904974326283505}
+  - component: {fileID: 4912639604079477873}
+  - component: {fileID: 3267454127514555591}
+  - component: {fileID: 90362376045422766}
+  - component: {fileID: -9098477145373077669}
+  - component: {fileID: 3592473738939196841}
+  - component: {fileID: 357292260943783925}
+  - component: {fileID: 9151498437381016499}
+  - component: {fileID: 3054584036509567250}
+  - component: {fileID: 7267332717709153154}
+  - component: {fileID: 5175207046550220865}
+  - component: {fileID: 168226227350423511}
+  - component: {fileID: 2026242491109271669}
+  m_Layer: 0
+  m_Name: PF_Player
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3413379097233622492
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7046351797434992644}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7495343312992837426}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1324829170917968700
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7046351797434992644}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: -4634905159326988993, guid: 9097cab553f38d44dbe1f9f2e9cb71c3, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+--- !u!50 &4733904974326283505
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7046351797434992644}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!61 &4912639604079477873
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7046351797434992644}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.1875, y: 1.5}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!95 &3267454127514555591
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7046351797434992644}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c4bbf5f401185fb4a948508680601826, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &90362376045422766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7046351797434992644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f453f694addf4275988fac205bc91968, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineConfiner2D
+  BoundingShape2D: {fileID: 0}
+  Damping: 0.5
+  SlowingDistance: 5
+  OversizeWindow:
+    Enabled: 0
+    MaxWindowSize: 0
+    Padding: 0
+  m_LegacyMaxWindowSize: -2
+--- !u!114 &-9098477145373077669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7046351797434992644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da849017658f9a94cb23763f0fcd0253, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HealthComponent
+  gameSession: {fileID: 11400000, guid: 1070e0f63ad57044fabf262de90d23e7, type: 2}
+  powerUpRegistry: {fileID: 11400000, guid: 585e76704f92e8641ae905e1fc66d35c, type: 2}
+  moveSpeed: 5
+  characterName: Link
+--- !u!114 &3592473738939196841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7046351797434992644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fabab0f788f94244a466ab5aee2de13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::S04_HealthComponent
+  baseMaxHp: 100
+  baseDefense: 0
+  gameSession: {fileID: 11400000, guid: 1070e0f63ad57044fabf262de90d23e7, type: 2}
+  OnHealthChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &357292260943783925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7046351797434992644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e175378ecb747f4891fa63f6bd9493d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::S08_PlayerXP
+  gameSession: {fileID: 11400000, guid: 1070e0f63ad57044fabf262de90d23e7, type: 2}
+  baseXpThreshold: 30
+  xpCurveExponent: 1.2
+  fallbackHpGrowth: 15
+  fallbackDefGrowth: 2
+  fallbackSpeedGrowth: 0
+  baseMagnetRadius: 2
+  OnLevelUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: S12_LevelUpOverlay, Assembly-CSharp
+        m_MethodName: Show
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnXpChanged:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &9151498437381016499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7046351797434992644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d256ce9398fcc4c83cf68fb7604111, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::S11_PlayerPowerUps
+  registry: {fileID: 11400000, guid: 585e76704f92e8641ae905e1fc66d35c, type: 2}
+  evolutionRecipes:
+  - recipeName: Four Sword
+    baseWeaponAsset: {fileID: 11400000, guid: 03811e4d7aee57e40a8efbe75f096f88, type: 2}
+    requiredPassiveAsset: {fileID: 11400000, guid: b8e6726e6ee7ed9429996e0e1e90cf76, type: 2}
+    evolvedResultAsset: {fileID: 11400000, guid: a019257b08d7e20429245bc2e064469a, type: 2}
+  - recipeName: Mirror Shield
+    baseWeaponAsset: {fileID: 11400000, guid: ca2e0036c685f5548a7108b1ead3dad1, type: 2}
+    requiredPassiveAsset: {fileID: 11400000, guid: 2619c01879c5f7e49a5404876949a4c2, type: 2}
+    evolvedResultAsset: {fileID: 11400000, guid: b61727cef182e304caa96ee6a852fd6e, type: 2}
+  - recipeName: Magical Boomerang
+    baseWeaponAsset: {fileID: 11400000, guid: d7a8f84e4a3f36d4bba6d99cac7b74be, type: 2}
+    requiredPassiveAsset: {fileID: 11400000, guid: a42b88bfbea71a0408bda1a1c3e49cf9, type: 2}
+    evolvedResultAsset: {fileID: 11400000, guid: d3938033605d694458b2b9ac315b6513, type: 2}
+  - recipeName: Mole Gloves
+    baseWeaponAsset: {fileID: 11400000, guid: 296b3c19d983b734db2be0f8c9e214d0, type: 2}
+    requiredPassiveAsset: {fileID: 11400000, guid: a3130839af0a87c4daa487a677d7a151, type: 2}
+    evolvedResultAsset: {fileID: 11400000, guid: ebfe0002fa260be43ae23c5604c05f1f, type: 2}
+  - recipeName: Gust Jar
+    baseWeaponAsset: {fileID: 11400000, guid: 5188055a613cfb24ea6bbba30abc9a42, type: 2}
+    requiredPassiveAsset: {fileID: 11400000, guid: 818f6b42cb0051d4c94bc5d46e5c0eec, type: 2}
+    evolvedResultAsset: {fileID: 11400000, guid: 746c1bf66b5a7a04cbebc3060ce9930d, type: 2}
+--- !u!114 &3054584036509567250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7046351797434992644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4a96b203c8bc9d41abc3202b6c8a6ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::S15_WeaponBase
+  gameSession: {fileID: 11400000, guid: 1070e0f63ad57044fabf262de90d23e7, type: 2}
+  projectilePrefab: {fileID: 0}
+  proximityVfxPrefab: {fileID: 0}
+  UnlockMoleMitts: 0
+  weaponAnimator: {fileID: 0}
+  slashPrimaryObject: {fileID: 0}
+  slashSecondaryObject: {fileID: 0}
+  moleMittsSlamObject: {fileID: 0}
+  forceMoleMittsTesting: 0
+  fallbackWeaponType: 0
+  fallbackDamage: 20
+  fallbackAttackInterval: 1
+  _proximityRadius: 2
+--- !u!114 &7267332717709153154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7046351797434992644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5290b44a42e67140bb5a8eb99b63139, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WP_BoomerangWeapon
+  standardBoomerangPrefab: {fileID: 704676443166989378, guid: da00fdebffff72640962d89bb89536c3, type: 3}
+  magneticRebounderPrefab: {fileID: 1631140567295755075, guid: b8d5e6ec673465a45855e8f45bc7a876, type: 3}
+  baseAttackInterval: 2.5
+  weaponDamage: 6
+  weaponTier: 0
+  isMagneticUnlocked: 0
+--- !u!114 &5175207046550220865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7046351797434992644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aa735fabfd354142ba0dc552246e270, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WP_SwordWeapon
+  slashPrefab: {fileID: 9157252275751448499, guid: 6a8445ec92e635741ac818a7248ebcab, type: 3}
+  baseAttackInterval: 1.8
+  baseDamage: 7
+  slashDuration: 0.3
+  horizontalOffset: 1.5
+  delayBetweenSlashes: 0.15
+  fourSwordAttackInterval: 0.25
+  weaponTier: 0
+  isFourSwordUnlocked: 0
+--- !u!114 &168226227350423511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7046351797434992644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55ec5682599e4ed468b4b718e5dbb34e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WP_MoleMittsWeapon
+  shockwavePrefab: {fileID: 915876254626773470, guid: 8c3bff68a68848f4da79a0374b5ca2a9, type: 3}
+  baseAttackInterval: 2.5
+  baseDamage: 10
+  shockwaveDuration: 0.3
+  shockwaveRadius: 0.8
+  shockwaveTravelDistance: 3
+  weaponTier: 0
+  isMoleGlovesUnlocked: 0
+  evolvedDamageMultiplier: 1.5
+  evolvedRadiusMultiplier: 1.8
+--- !u!114 &2026242491109271669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7046351797434992644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 443b94a3fc65db54981a9d4f1cf989c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WP_RocsCapeWeapon
+  tornadoPrefab: {fileID: 2274307365965889637, guid: 9987e4aa6f98bb148b4963bde9b23114, type: 3}
+  baseAttackInterval: 2
+  baseDamage: 10
+  tornadoSpeed: 8
+  tornadoLifetime: 2
+  detectionRange: 7
+  weaponTier: 0
+  isGustJarUnlocked: 0
+  evolvedDamageMultiplier: 2
+  evolvedTornadoCount: 3
+  evolvedAttackInterval: 3
+  evolvedLifetime: 3

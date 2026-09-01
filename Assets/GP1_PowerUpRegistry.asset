@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050318516f7388b498f1c0c412590e68, type: 3}
+  m_Name: GP1_PowerUpRegistry
+  m_EditorClassIdentifier: Assembly-CSharp::SO_PowerUpRegistry
+  allPowerUps:
+  - {fileID: 11400000, guid: 03811e4d7aee57e40a8efbe75f096f88, type: 2}
+  - {fileID: 11400000, guid: ca2e0036c685f5548a7108b1ead3dad1, type: 2}
+  - {fileID: 11400000, guid: d7a8f84e4a3f36d4bba6d99cac7b74be, type: 2}
+  - {fileID: 11400000, guid: 296b3c19d983b734db2be0f8c9e214d0, type: 2}
+  - {fileID: 11400000, guid: 5188055a613cfb24ea6bbba30abc9a42, type: 2}
+  - {fileID: 11400000, guid: a42b88bfbea71a0408bda1a1c3e49cf9, type: 2}
+  - {fileID: 11400000, guid: 2619c01879c5f7e49a5404876949a4c2, type: 2}
+  - {fileID: 11400000, guid: b8e6726e6ee7ed9429996e0e1e90cf76, type: 2}
+  - {fileID: 11400000, guid: 818f6b42cb0051d4c94bc5d46e5c0eec, type: 2}
+  - {fileID: 11400000, guid: a3130839af0a87c4daa487a677d7a151, type: 2}

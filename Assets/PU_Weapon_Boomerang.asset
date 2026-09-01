@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09e47fa565e0f424eaf9a8785570d249, type: 3}
+  m_Name: PU_Weapon_Boomerang
+  m_EditorClassIdentifier: Assembly-CSharp::SO_PowerUp
+  displayName: Boomerang
+  effectType: 10
+  value: 0
+  maxStacks: 5
+  minLevel: 1
+  description: Orbits the player but periodically zips outward toward enemies before
+    returning.
+  icon: {fileID: 6946876648732156625, guid: b97a471cf94bd1343ba8a5c7783b3584, type: 3}

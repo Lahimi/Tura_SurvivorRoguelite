@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09e47fa565e0f424eaf9a8785570d249, type: 3}
+  m_Name: PU_Weapon_SmithsSword
+  m_EditorClassIdentifier: Assembly-CSharp::SO_PowerUp
+  displayName: Smith's Sword
+  effectType: 8
+  value: 0
+  maxStacks: 5
+  minLevel: 1
+  description: Melee swings that release kinetic waves of force, hitting enemies
+    beyond the blade's reach.
+  icon: {fileID: -5427058685687892915, guid: 32f215891b5eeaf46911672a6be49093, type: 3}

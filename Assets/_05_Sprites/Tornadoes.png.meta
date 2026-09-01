@@ -1,0 +1,306 @@
+fileFormatVersion: 2
+guid: 23686eb5420bd16438bcc39de8e1f452
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4101796019256137788
+    second: Tornadoes_0
+  - first:
+      213: 6591438054255527990
+    second: Tornadoes_1
+  - first:
+      213: 2409394482617378909
+    second: Tornadoes_2
+  - first:
+      213: 616794007387306377
+    second: Tornadoes_3
+  - first:
+      213: -8578493488715508337
+    second: Tornadoes_4
+  - first:
+      213: -166781966590373651
+    second: Tornadoes_5
+  - first:
+      213: -1969601663214775000
+    second: Tornadoes_6
+  - first:
+      213: 1136265444821704663
+    second: Tornadoes_7
+  - first:
+      213: -1955512274539534756
+    second: Tornadoes_8
+  - first:
+      213: 8383740651815422637
+    second: Tornadoes_9
+  - first:
+      213: 4172529553005635138
+    second: Tornadoes_10
+  - first:
+      213: -4677158319558673443
+    second: Tornadoes_11
+  - first:
+      213: -4582973170439439449
+    second: Tornadoes_12
+  - first:
+      213: 4150769854985441960
+    second: Tornadoes_13
+  - first:
+      213: -7187490902291624736
+    second: Tornadoes_14
+  - first:
+      213: -3236589041172122983
+    second: Tornadoes_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tornadoes_1
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 14
+        width: 70
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63884e6ccfd797b50800000000000000
+      internalID: 6591438054255527990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tornadoes_2
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 14
+        width: 70
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d58e1343483ef6120800000000000000
+      internalID: 2409394482617378909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tornadoes_4
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 14
+        width: 75
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f855c117f9113f880800000000000000
+      internalID: -8578493488715508337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tornadoes_7
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 14
+        width: 71
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df1621e663d4cf00800000000000000
+      internalID: 1136265444821704663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tornadoes_9
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 14
+        width: 75
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daac57034b7095470800000000000000
+      internalID: 8383740651815422637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e5c6d1fe77e6341409949015bb2b44e1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Tornadoes_0: 4101796019256137788
+      Tornadoes_1: 6591438054255527990
+      Tornadoes_10: 4172529553005635138
+      Tornadoes_11: -4677158319558673443
+      Tornadoes_12: -4582973170439439449
+      Tornadoes_13: 4150769854985441960
+      Tornadoes_14: -7187490902291624736
+      Tornadoes_15: -3236589041172122983
+      Tornadoes_2: 2409394482617378909
+      Tornadoes_3: 616794007387306377
+      Tornadoes_4: -8578493488715508337
+      Tornadoes_5: -166781966590373651
+      Tornadoes_6: -1969601663214775000
+      Tornadoes_7: 1136265444821704663
+      Tornadoes_8: -1955512274539534756
+      Tornadoes_9: 8383740651815422637
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
